@@ -1,0 +1,183 @@
+:root{
+
+    --backr_color-menu: rgb(128, 24, 79);
+    --cell_butt_text-color: white;
+    
+    --cell_width_glav: 350px;
+
+    /* --font:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    --font: Verdana, Arial, Helvetica, sans-serif;
+}
+  
+.button_cell, .button_cell:visited {
+
+  text-decoration-line: none;
+  color: var(--cell_butt_text-color);
+  background-color: var(--backr_color-menu);
+  border: 15px solid var(--backr_color-menu);
+  text-align: left;
+  width: var(--cell_width_glav);
+  display: list-item;
+  font-family: var(--font);
+  font-size: 10pt;
+
+}
+  
+.img_button_cell{
+
+  vertical-align: middle;
+  display: inline-block;
+  height: 26px;
+  margin-right: 10px;
+
+}
+.menu_butts, .menu_butts li {
+  list-style: none;
+  display: table-row;
+}
+
+.menu_butts > .makrosi{
+
+  position: absolute;
+  
+}
+.makrosi li .button_cell{
+  max-width: 180px;
+  display: none;
+}
+.menu_butts li:hover > .makrosi li .button_cell{
+/* .menu_butts li > .makrosi li .button_cell{ */
+  display: block;
+}
+
+#but_office:hover{
+
+  background-color: #E59900;
+  border-color: #E59900;
+}
+#but_excel:hover{
+
+  background-color: #2c5313;
+  border-color: #2c5313;
+}
+#but_word:hover{
+
+  background-color: #0069CA;
+  border-color: #0069CA;
+}
+#but_android:hover{
+
+  background-color: #00b300;
+  border-color: #00b300;
+}
+#but_win:hover{
+
+  background-color: #0072a3;
+  border-color: #0072a3;
+}
+#but_home:hover{
+
+  background-color: hsl(36, 90%, 35%);
+  border-color: hsl(36, 90%, 35%);
+}
+#but_py:hover{
+
+  background-color: hsl(206, 54%, 30%);
+  border-color: hsl(206, 54%, 30%);
+}
+
+
+#but_android, #but_win{
+
+  display: none;
+}
+
+
+
+/* Конец стиля меню  */
+
+
+
+.left_menu > tbody > tr > td {
+
+    background-color: var(--backr_color-menu);
+    width: var(--cell_width_glav);
+    display: table-row;
+}
+
+.left_menu, #left_menu_td {
+    background-color: var(--backr_color-menu);
+    color: var(--cell_butt_text-color);
+}
+
+
+#background{
+    height: 100px;
+    font-family: var(--font);
+}
+
+#background > p{
+  font-family: var(--font);
+  margin-left: 100px;
+  vertical-align: bottom;
+  font-size: 25px;
+}
+
+#left_menu_td, #contents{
+
+  vertical-align: top;
+  
+}
+
+.left_menu > tbody > tr >td> hr{
+
+  border: 1px solid var(--cell_butt_text-color);
+  margin: 30px 20px;
+}
+
+#contents{
+  margin: auto;
+  height: 1000px;
+  background-color: #0072a3;
+  width: 100%;
+}
+#div_contents{
+  text-align: justify;
+  margin: auto 30px;
+  color: var(--cell_butt_text-color);
+  font-family: var(--font);
+
+}
+#div_contents > h1{
+  text-align: center;
+}
+
+#div_contents > img{
+  margin: 10px auto;
+  display: block;
+}
+
+body{
+  margin: 0px;
+  left: 0;
+  padding: 0px;
+  background-color: var(--backr_color-menu);
+}
+
+#end_sait{
+  background-color: var(--backr_color-menu);
+  color: var(--cell_butt_text-color);
+  font-family: var(--font);
+  font-size: 12px;
+  text-align: right;
+}
+#end_sait > hr{
+  border: 1px solid var(--cell_butt_text-color);
+  margin: 5px 5px;
+}
+
+#fixed_copy > td{
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
