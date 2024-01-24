@@ -1,0 +1,6 @@
+#left_menu_td, #contents{
+
+  vertical-align: top;
+  
+  display: table-row;
+}
