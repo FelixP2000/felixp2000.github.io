@@ -4,3 +4,9 @@
   
   display: table-row;
 }
+
+#div_contents > img{
+  margin: 50px auto;
+  display: block;
+  width: 90%;
+}
