@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <title>TTL Editor</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="windows.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" media="(max-width: 768px)" href="2.css">
+    </head>
+
+    <body>
+            
+            <table class="div_menu">
+                <tbody>
+                    <tr>
+                        <td id="left_menu_td">
+                    
+                            <table class="left_menu" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td id="background"><p>Сайт программиста Феликса Петрова</p></td>
+                                        <td><hr></td>
+                                        <td id="nav">
+                                            <ul class="menu_butts">
+                                                <li><a href="index.html" class="button_cell" id="but_home"><img src="images/glavnaya.png" class="img_button_cell">Главная</a></li>
+                                                <li>
+                                                    <a href="#" class="button_cell" id="but_office"><img src="images/office.png" class="img_button_cell">Макросы для продуктов Microsoft Office</a>
+                                                    <ul class="makrosi">
+                                                        <li><a href="excel.html" class="button_cell" id="but_excel"><img src="images/excel.png" class="img_button_cell">Макросы для Excel</a></li>
+                                                        <li><a href="word.html" class="button_cell" id="but_word"><img src="images/word.png" class="img_button_cell">Макросы для Word</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#" class="button_cell" id="but_android"><img src="images/android.png" class="img_button_cell">Приложения для Android</a></li>
+                                                <li><a href="windows.html" class="button_cell" id="but_win"><img src="images/windows.png" class="img_button_cell">Приложения для Windows</a></li>
+                                                <li><a href="py.html" class="button_cell" id="but_py"><img src="images/py.png" class="img_button_cell">Скрипты Python</a></li>
+                                            </ul>
+                                        </td>
+                                        <td><hr></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        
+                        </td>
+                        
+                        
+                        <td id="contents">
+                            <div id="div_contents">
+                                <h1>TTL Editor</h1>
+                                <p>
+                                    TTL Editor - программа, созданная для того, чтобы изменить значение TTL на компьютере без применения ручного редактирования реестра: её пользовательский интерфейс позволит "в два клика" любому пользователю, автоматически выполнить алгоритм редактирования.
+                                </p>
+                                <p>TTL – это специальный показатель, который встроен в каждое устройство, способное выходить в интернет. Сама аббревиатура расшифровывается как Time To Live – «время жизни IP-пакета». Это набор данных, который передается от пользователя к серверу и обратно. Время в данном случае означает то, сколько может просуществовать пакет без потери информации. Изначально TTL хотели измерять в секундах, откуда и пошло определение.
+
+                                    Значение TTL в компьютерных сетях находится в диапазоне от 0 до 255. Перемещаясь между различными маршрутизаторами, параметр постоянно меняется. Для владельцев устройств на базе iOS и Android начальное значение обычно равняется 64, для Windows – 128. Каждый переход через беспроводной канал уменьшает показатель на 1 единицу. Если произойдет множество скачков от одного клиента к другому, значение становится равным 0 – в таком случае все данные в пакете уничтожаются.</p>
+                                
+                                <p>
+                                    Точное число значений TTL всегда перенаправляется провайдеру, который всегда может узнать, был ли пропущен трафик через сторонние устройства или нет. Когда владелец смартфона раздает интернет, его значение TTL уменьшается на единицу и равняется 63. Это сразу же становится известно оператору, который в свою очередь начинает принимать меры – обычно взимает дополнительную плату или перекрывает доступ в интернет - таким образом, сотовые операторы могут спокойно контролировать раздачу интернета своих клиентов и устранить с их стороны какие-либо махинации с интернетом.
+                                </p>
+                                <p>
+                                    Чтобы обойти блокировку оператора, необходимо увеличить значение TTL на 1 единицу. Так мы получим увеличенное число, которое будет снижаться до исходного. В таком случае оператор не сможет заподозрить клиента в раздаче интернета.
+                                </p>
+                                <img src="images/Traceroute-Diagram-Example.webp" style="width: 400px;">
+                                <img src="images/8f2654.png" style="width: 600px;">
+                                <p>
+                                    Судя по последним схемам видим, что значение TTL при передачи пакета оператору или следующему устройству (1 картинка) уменьшается на 1, поэтому, чтобы не было, что называется, "палева", займёмся тогда изменением значения TTL.
+                                </p>
+                                
+                                <table class="download_table" cellspacing="0" cellpadding="5">
+                                    <tbody>
+                                        <tr>
+                                            <th>Версия</th>
+                                            <th>Дата разработки</th>
+                                            <th>Платформа .NET</th>
+                                            <th>Разрядность</th>
+                                            <th>Тип</th>
+                                            <th>Размер</th>
+                                            <th>Ссылка</th>
+                                            <!-- 7 -->
+                                        </tr>
+                                        <tr>
+                                            <td>1.0</td>
+                                            <td>04.02.2024</td>
+                                            <td>.NET Framework 4.0</td>
+                                            <td>x86</td>
+                                            <td>.exe</td>
+                                            <td>16 KB</td>
+                                            <td><a href="windows/">Скачать</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br><br><br>
+                            </div>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id ="end_sait" colspan="2">
+                            <hr>
+                                &#169;Coryright 2024 | Felix Petrov
+                            <hr>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+    </body>
+
+
+
+</html>
