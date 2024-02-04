@@ -10,3 +10,8 @@
   display: block;
   width: 90%;
 }
+
+.download_table > tbody > tr >td, .download_table > tbody > tr >th{
+  text-align: center;
+  font-size: 5pt;
+}
