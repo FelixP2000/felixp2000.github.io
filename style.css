@@ -86,11 +86,11 @@
   border-color: hsl(206, 54%, 30%);
 }
 
-
+/* 
 #but_android, #but_win{
 
   display: none;
-}
+} */
 
 
 
@@ -150,6 +150,7 @@
 }
 #div_contents > h1{
   text-align: center;
+  /* width: 100%; */
 }
 
 #div_contents > img{
