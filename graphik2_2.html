@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <title>Макрос для расчёта графика 2/2</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="icon" type="image/png" sizes="16x16" href="images/icon1616.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="images/icon3232.png">
+            <link rel="stylesheet" href="excel.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" media="(max-width: 768px)" href="2.css">
+            <link rel="stylesheet" href="graphik2_2.css">
+    </head>
+
+    <body>
+            
+            <table class="div_menu">
+                <tbody>
+                    <tr>
+                        <td id="left_menu_td">
+                    
+                            <table class="left_menu" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td id="background"><img src="images/fel1.png" class="logo"></td>
+                                        <td><hr></td>
+                                        <td id="nav">
+                                            <ul class="menu_butts">
+                                                <li><a href="index.html" class="button_cell" id="but_home"><img src="images/glavnaya.png" class="img_button_cell">Главная</a></li>
+                                                <li>
+                                                    <a href="#" class="button_cell" id="but_office"><img src="images/office.png" class="img_button_cell">Макросы для продуктов Microsoft Office</a>
+                                                    <ul class="makrosi">
+                                                        <li><a href="excel.html" class="button_cell" id="but_excel"><img src="images/excel.png" class="img_button_cell">Макросы для Excel</a></li>
+                                                        <li><a href="word.html" class="button_cell" id="but_word"><img src="images/word.png" class="img_button_cell">Макросы для Word</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#" class="button_cell" id="but_android"><img src="images/android.png" class="img_button_cell">Приложения для Android</a></li>
+                                                <li><a href="windows.html" class="button_cell" id="but_win"><img src="images/windows.png" class="img_button_cell">Приложения для Windows</a></li>
+                                                <li><a href="py.html" class="button_cell" id="but_py"><img src="images/py.png" class="img_button_cell">Скрипты Python</a></li>
+                                            </ul>
+                                        </td>
+                                        <td><hr></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        
+                        </td>
+                        
+                        
+                        <td id="contents">
+                            <div id="div_contents">
+                                <h1>Макрос для расчёта графика 2/2</h1>
+								<p>
+                                Макрос для расчёта графика 2/2 - надстройка, созданая для расчёта графика смен по графику &quot;2 через 2&quot; (2 рабочих/2 выходных) соответственно, и написанная
+                                на языке VBA (Visual studio for applications).
+                                </p>
+                                <p>
+                                Инструкция:<br>
+                                Чтобы воспользоваться данным макросом, вам нужно выполнить определённый алгоритм действий:
+                                <ol>
+                                <li>Включить режим Надстройки в Excel (Параметры Excel -&gt; Настроить ленту -&gt; Столбец справа &quot;Основные вкладки&quot; -&gt; Внизу включить вкладку)</li>
+                                <li>Зайти в Параметры Excel -&gt; Надстройки -&gt; Внизу вкладка &quot;Управление - Надстройки Excel&quot; -&gt; Обзор -&gt; Выбрать скачанный файл надстройки</li>
+                                <li>Нажать &quot;OK!&quot;. После чего будет видна вкладка надстройки с надписью &quot;Работа с графиком&quot;</li>
+                                <li>Нажать на кнопку &quot;Составить 2/2&quot; и ввести нужные параметры для графика, а именно:</li>
+                                </ol>
+                                <ul>
+                                <li>Дату первого выходного в формате: &quot;ДД.ММ.ГГ&quot;</li>
+                                <li>Выбрать ячейку, где будет распологаться значение графика по первому выходному (от которой будет проводиться расчёт)</li>
+                                <li>Ввести длительность рабочего дня для расчёта</li>
+                                </ul>
+                                </p>
+                                <p>
+                                Пример:<br>
+                                У вас первая смена началась 29 февраля 2024 года, по графику &quot;2/2&quot; (2 рабочих/2 выходных), получается:<br>
+                                <ul>
+                                <li>29 февраля и 1 марта - первые два рабочих,</li>
+                                <li>2 и 3 марта - выходные, где 2 марта - первый выходной день: вот эту дату и введём в макрос.</li>
+                                </ul>
+                                </p>
+                                <p>
+                                После чего, макрос всё рассчитает за вас, сам же расчёт, проводится за месяц той даты, которая была введена первоначально, но учтите, что он сделает расчёт только за тот месяц,
+                                который был введён в макросе при вводе даты (т.к дата была введена 2 марта 2024, то и расчёт будет за март).
+                                </p>
+                                <video src="videos/1.mp4" class="video" controls></video>
+                                <table class="download_table" cellspacing="0" cellpadding="5">
+                                    <tbody>
+                                        <tr>
+                                            <th>Версия</th>
+                                            <th>Дата разработки</th>
+                                            <th>Тип</th>
+                                            <th>Размер</th>
+                                            <th>Ссылка</th>
+                                            <!-- 7 -->
+                                        </tr>
+                                        <tr>
+                                            <td>1.0</td>
+                                            <td>20.02.2024</td>
+                                            <td>.xlam</td>
+                                            <td>1.08 MB</td>
+                                            <td><a href="excel/график.xlam">Скачать</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br>
+                            </div>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id ="end_sait" colspan="2">
+                            <hr>
+                                &#169;Coryright 2024 | Felix Petrov
+                            <hr>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+    </body>
+
+
+
+</html>

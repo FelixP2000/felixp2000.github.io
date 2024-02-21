@@ -87,7 +87,7 @@
 }
 
 
-#but_android{
+#but_android, #but_py, #but_word{
 
   display: none;
 }
@@ -186,4 +186,14 @@ body{
 .logo{
   margin: 10px;
   width: 90%;
+}
+
+
+.temno{
+  background-color: hsla(0, 0%, 0%, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
