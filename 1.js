@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "month":"numeric"
     }).format(date);
 
-    if (date=="28.02"){
+    if (date=="01.03"){
         document.querySelector("#background > img").src="1.png";
     }
     
