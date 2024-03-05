@@ -58,5 +58,4 @@ window.addEventListener('submit', ()=>{
         }
         
     };
-    send_msg_to_author.action = "";
 });
