@@ -1,5 +1,8 @@
-send_msg_to_author.action = "";
 
+setTimeout(() => {
+    send_msg_to_author.action = "";
+    
+}, 4000);
 
 
 function povtori(g) {
