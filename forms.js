@@ -1,3 +1,9 @@
+window.onload=()=>{
+
+    send_msg_to_author.action = "";
+};
+
+
 function povtori(g) {
     var array = g.split("");
     var rslt = 0;
