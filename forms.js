@@ -1,7 +1,5 @@
-window.onload=()=>{
+send_msg_to_author.action = "";
 
-    send_msg_to_author.action = "";
-};
 
 
 function povtori(g) {
