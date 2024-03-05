@@ -85,6 +85,11 @@
   background-color: hsl(206, 54%, 30%);
   border-color: hsl(206, 54%, 30%);
 }
+#but_send:hover{
+
+  background-color: hsl(206, 54%, 30%);
+  border-color: hsl(206, 54%, 30%);
+}
 
 
 #but_android, #but_py, #but_word{

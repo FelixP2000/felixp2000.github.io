@@ -1,0 +1,40 @@
+#send_msg_to_author table{
+    /* border: 1px solid black; */
+    padding: 5px;
+    width: 100%;
+}
+
+#send_msg_to_author table td{
+    display: block;
+    width: 97%;
+    padding-right: 10px;
+}
+#send_msg_to_author table input{
+    width: 100%;
+}
+
+.text_msg{
+    resize: none;
+    width: 100%;
+    height: 150px;
+}
+
+#sending{
+    width: 101%;
+    height: 80px;
+    color: white;
+    background-color: blue;
+    border: 3px solid hsl(240, 100%, 82%);
+}
+#sending:hover{
+    background-color: hsl(240, 100%, 70%);
+    cursor: pointer;
+}
+
+#require{
+    color: red;
+}
+button{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
