@@ -33,12 +33,17 @@
 }
 .menu_butts, .menu_butts li {
   list-style: none;
-  display: table-row;
+  display: inline-block;
 }
 
 .menu_butts > .makrosi{
 
   position: absolute;
+  
+}
+.makrosi{
+
+  display: grid;
   
 }
 .makrosi li .button_cell{
@@ -95,6 +100,10 @@
 #but_android, #but_py, #but_word{
 
   display: none;
+}
+
+.menu_butts{
+  padding-left: 20px;
 }
 
 
