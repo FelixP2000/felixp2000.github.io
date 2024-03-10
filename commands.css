@@ -1,0 +1,27 @@
+#contents{
+  background-color: hsl(0, 0%, 30%);
+  width: 100%;
+}
+
+.spisok_skript {
+  color: white;
+  text-decoration: none;
+
+}
+
+.download_table > tbody > tr >td, .download_table > tbody > tr >th{
+  text-align: center;
+  font-size: 8pt;
+}
+
+.download_table, .download_table > tbody > tr > td, .download_table > tbody > tr > th{
+  border: 0.6px rgb(15, 18, 182) solid;
+}
+
+#code_window_git{
+  /* display: none; */
+}
+
+#github_but{
+  cursor: pointer;
+}

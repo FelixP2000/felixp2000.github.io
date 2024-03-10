@@ -1,0 +1,30 @@
+
+pre{
+    line-height: 1.5px;
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    font-size: 15px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "ER Univers 1251";
+    color: black;
+    width: 50px;
+}
+
+
+.git button  {
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: "ER Univers 1251";
+}
+
+#git_word{
+    color: blueviolet;
+}
+
+#git_value{
+    color: blue;
+}
+
+#kavichka{
+    color: orangered;
+}

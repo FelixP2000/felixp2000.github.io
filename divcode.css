@@ -1,0 +1,90 @@
+:root{
+
+    --border_rad:4.6px;
+}
+
+#code {
+    /* border: 5px ridge hsl(0, 0%, 60%); */
+    
+    /* display: table-cell; */
+    padding: 15px;
+    background-color: hsl(0, 0%, 80%);
+    overflow-x: scroll;
+    width: 100%;
+    /* position: relative; */
+    border-left: 4px solid #0056E6;
+    border-right: 4px solid #0056E6;
+    border-bottom: 4px solid #0056E6;
+    font-family: 'ER Univers 1251', "Courier";
+    font-size: 80%;
+
+    border-bottom-left-radius: var(--border_rad);
+    border-bottom-right-radius: var(--border_rad);
+
+}
+
+#shapka{
+    /* padding-left: 15px; */
+    padding-bottom: 5px;
+    width: 100%;
+    height: 50px;
+    line-height: 0px;
+    border: 4px solid #0056E6;
+    background-color: #0056E6;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border-top-left-radius: var(--border_rad);
+    border-top-right-radius: var(--border_rad);
+}
+
+#shapka p, #exit, #copys, #ikonka, #right, #lefts{
+    color: white;
+    display: inline-block;
+    font-family: 'ER Univers 1251', "Courier";
+    font-size: 80%;
+}
+#exit{
+    background-color: red;
+    padding-left: 9px;
+    padding-right: 9px;
+    border: 2px solid white;
+    float: right;
+    margin-right: 2px;
+    cursor: pointer;
+}
+#exit:hover{
+    background-color: hsl(0, 100%, 70%);
+}
+#copys{
+    background-color: #0056E6;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 2px solid white;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#copys:hover{
+    background-color: hsl(218, 100%, 60%);
+}
+#shapka img{
+    width: 20px;
+    vertical-align: middle;
+    margin-bottom: 7px;
+    margin-left: 0px;
+}
+
+#right{
+    float: right;
+}
+
+#code_window_git{
+    width: 90%;
+}
+
+#code_window_git > div{
+    display: block;
+}
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <title>Справочник комманд</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="icon" type="image/png" sizes="16x16" href="images/icon1616.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="images/icon3232.png">
+            <link rel="stylesheet" href="commands.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" media="(max-width: 768px)" href="2.css">
+            <script src="1.js"></script>
+
+            <link rel="stylesheet" href="git.css">
+            <link rel="stylesheet" href="divcode.css">
+            <link rel="stylesheet" href="fonts.css">
+    </head>
+    <body>
+            <table class="div_menu">
+                <tbody>
+                    <tr>
+                        <td id="left_menu_td">
+                    
+                            <table class="left_menu" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td id="background"><img src="images/fel1.svg" class="logo"></td>
+                                        <td><hr></td>
+                                        <td id="nav">
+                                            <ul class="menu_butts">
+                                                <li><a href="https://felixp2000.github.io/" class="button_cell" id="but_home"><img src="images/glavnaya.png" class="img_button_cell">Главная</a></li>
+                                                <li>
+                                                    <a href="#" class="button_cell" id="but_office"><img src="images/office.png" class="img_button_cell">Макросы для продуктов Microsoft Office</a>
+                                                    <ul class="makrosi">
+                                                        <li><a href="excel.html" class="button_cell" id="but_excel"><img src="images/excel.png" class="img_button_cell">Макросы для Excel</a></li>
+                                                        <li><a href="word.html" class="button_cell" id="but_word"><img src="images/word.png" class="img_button_cell">Макросы для Word</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#" class="button_cell" id="but_android"><img src="images/android.png" class="img_button_cell">Приложения для Android</a></li>
+                                                <li><a href="windows.html" class="button_cell" id="but_win"><img src="images/windows.png" class="img_button_cell">Приложения для Windows</a></li>
+                                                <li><a href="py.html" class="button_cell" id="but_py"><img src="images/py.png" class="img_button_cell">Скрипты Python</a></li>
+                                                <li><a href="send.html" class="button_cell" id="but_send"><img src="images/send.png" class="img_button_cell">Отправить обращение</a></li>
+                                                <li><a href="commands.html" class="button_cell" id="but_cmds"><img src="images/terminal.png" class="img_button_cell">Справочник команд</a></li>
+                                            </ul>
+                                        </td>
+                                        <td><hr></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        
+                        </td>
+                        
+                        
+                        <td id="contents">
+                            <div id="div_contents">
+                                <h1>Справочник комманд</h1>
+                                <p>Список полезных комманд:</p>
+                                <ul>
+                                    <li><a class="spisok_skript" id ="github_but">Команды по управлению Git-проектом</a></li>
+                                </ul>
+                                <div id="code_window_git">
+                                    <div id="shapka">
+                                        <div id="lefts">
+                                            <img src="101.png" id="ikonka">
+                                            <p>Команды по управлению Git-проектом</p>
+                                        </div>
+                                        <div id="right">
+                                            <div id="exit">
+                                                <p>X</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="code" class="git">
+                                        <p>
+                                        <span><span id="git_word">git</span> init</span><button onclick="copyes(this)">copy</button><br>
+                                        <span><span id="git_word">git</span> clone <span id="git_value">%<ссылка на репозиторий>%</span></span><button onclick="copyes(this)">copy</button><br>
+                                        <span><span id="git_word">git</span> add <span id="kavichka">"</span><span id="git_value">%<имя файла для загрузки>%</span><span id="kavichka">"</span></span></span><button onclick="copyes(this)">copy</button><br>
+                                        <span><span id="git_word">git</span> commit -m <span id="kavichka">"</span><span id="git_value">%<любое название коммита>%</span><span id="kavichka">"</span></span></span><button onclick="copyes(this)">copy</button><br>
+                                        <span><span id="git_word">git</span> branch -M <span id="git_value">%<имя ветки для загрузки>%</span></span><button onclick="copyes(this)">copy</button><br>
+                                        <span><span id="git_word">git</span> push -u origin <span id="git_value">%<имя ветки для загрузки, указанное ранее>%</span></span><button onclick="copyes(this)">copy</button><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id ="end_sait" colspan="2">
+                            <hr>
+                                &#169;Coryright 2024 | Felix Petrov
+                            <hr>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        <script src="gits.js"></script>
+            
+    </body>
+
+
+
+</html>
