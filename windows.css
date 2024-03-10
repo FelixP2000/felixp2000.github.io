@@ -1,0 +1,19 @@
+#contents{
+  background-color: #0072a3;
+  width: 100%;
+}
+
+.spisok_skript {
+  color: white;
+  text-decoration: none;
+
+}
+
+.download_table > tbody > tr >td, .download_table > tbody > tr >th{
+  text-align: center;
+  font-size: 8pt;
+}
+
+.download_table, .download_table > tbody > tr > td, .download_table > tbody > tr > th{
+  border: 0.6px rgb(15, 18, 182) solid;
+}
