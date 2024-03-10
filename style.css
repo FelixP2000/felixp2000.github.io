@@ -33,7 +33,7 @@
 }
 .menu_butts, .menu_butts li {
   list-style: none;
-  display: inline-block;
+  display: grid;
 }
 
 .menu_butts > .makrosi{
@@ -105,6 +105,12 @@
 .menu_butts{
   padding-left: 20px;
 }
+
+#but_cmds:hover{
+  background-color: hsl(0, 0%, 30%);
+  border-color: hsl(0, 0%, 30%);
+}
+
 
 
 
