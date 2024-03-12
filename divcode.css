@@ -50,7 +50,7 @@
     padding-right: 9px;
     border: 2px solid white;
     float: right;
-    margin-right: 2px;
+    margin-right: -9px;
     cursor: pointer;
 }
 #exit:hover{
