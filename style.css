@@ -121,8 +121,8 @@
 .left_menu > tbody > tr > td {
 
     background-color: var(--backr_color-menu);
-    width: var(--cell_width_glav);
-    display: table-row;
+    width: 100%;
+    display: inline-block;
 }
 
 .left_menu, #left_menu_td {
@@ -132,7 +132,7 @@
 
 
 #background{
-    height: 100px;
+    /* height: 100px; */
     font-family: var(--font);
 }
 
