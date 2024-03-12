@@ -204,8 +204,9 @@ body{
   width: 100%;
 }
 .logo{
-  margin: 10px;
+  margin: 10px auto;
   width: 90%;
+  display: block;
 }
 
 
