@@ -96,6 +96,11 @@
   border-color: hsl(206, 54%, 30%);
 }
 
+#but_testw:hover{
+  background-color: #0C910F;
+  border-color: #0C910F;
+}
+
 
 #but_android, #but_py, #but_word{
 
