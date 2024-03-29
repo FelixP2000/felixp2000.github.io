@@ -6,18 +6,17 @@
   }
   
 .spisok_skript {
-color: white;
-text-decoration: none;
-
+  color: white;
+  text-decoration: none;
 }
 
 .download_table > tbody > tr >td, .download_table > tbody > tr >th{
-text-align: center;
-font-size: 8pt;
+  text-align: center;
+  font-size: 8pt;
 }
 
 .download_table, .download_table > tbody > tr > td, .download_table > tbody > tr > th{
-border: 0.6px rgb(15, 18, 182) solid;
+  border: 0.6px rgb(15, 18, 182) solid;
 }
 
 #code_window_git{
@@ -25,5 +24,11 @@ border: 0.6px rgb(15, 18, 182) solid;
 }
 
 #github_but{
-cursor: pointer;
+  cursor: pointer;
+}
+#icons_lang{
+  width: 35px;
+  height: 15px;
+  vertical-align: middle;
+  margin-left: 3px;
 }
