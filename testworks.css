@@ -32,3 +32,14 @@
   vertical-align: middle;
   margin-left: 3px;
 }
+
+
+#div_contents > img, .video{
+  margin: 50px auto;
+  display: block;
+  width: 80%;
+}
+#download_button{
+  margin: 0px auto;
+  display: block;
+}
