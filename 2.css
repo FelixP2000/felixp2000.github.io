@@ -20,7 +20,7 @@
   height: 100%;
 }
 
-#div_contents{
-  height: 500px;
+#div_contents > ul{
+  margin-bottom: 300px;
 }
 
