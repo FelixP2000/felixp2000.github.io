@@ -54,7 +54,7 @@ window.addEventListener('submit', ()=>{
             return;
         }
         else{
-            send_msg_to_author.action = "http://f0927537.xsph.ru/";
+            send_msg_to_author.action = "http://t91176wr.beget.tech/";
         }
         
     };
