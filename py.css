@@ -8,4 +8,15 @@
   text-decoration: none;
 }
 
+.download_table > tbody > tr >td{
+  text-align: center;
+}
+
+.download_table, .download_table > tbody > tr > td, .download_table > tbody > tr > th{
+  border: 0.6px rgb(255, 255, 255) solid;
+  text-align: center;
+}
+.download_table a{
+  color: #ffffff;
+}
 
