@@ -58,6 +58,7 @@
                                 <p>Список полезных команд:</p>
                                 <ul>
                                     <li><a class="spisok_skript" id ="github_but">Команды по управлению Git-проектом</a></li>
+                                    <li><a class="spisok_skript" id ="linux_but">Команды для удобства управления Linux</a></li>
                                 </ul>
                                 <div id="code_window_git">
                                     <div id="shapka">
@@ -82,6 +83,30 @@
                                         </p>
                                     </div>
                                 </div>
+                                <br><br>
+                                <div id="code_window_linux">
+                                    <div id="shapka">
+                                        <div id="lefts">
+                                            <img src="101.png" id="ikonka">
+                                            <p>Команды для удобства управления Linux</p>
+                                        </div>
+                                        <div id="right">
+                                            <div id="exit">
+                                                <p>X</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="code" class="git">
+                                        <p>
+                                        <p><pre><span><span id="linux_word">git</span> init</span><button onclick="copyes(this)">copy</button><br></pre></p>
+                                        <p><pre><span><span id="linux_word">git</span> clone <span id="git_value">%<ссылка на репозиторий>%</span></span><button onclick="copyes(this)">copy</button><br></pre></p>
+                                        <p><pre><span><span id="linux_word">git</span> add <span id="kavichka">"</span><span id="git_value">%<имя файла для загрузки>%</span><span id="kavichka">"</span></span></span><button onclick="copyes(this)">copy</button><br></pre></p>
+                                        <p><pre><span><span id="linux_word">git</span> commit -m <span id="kavichka">"</span><span id="git_value">%<любое название коммита>%</span><span id="kavichka">"</span></span></span><button onclick="copyes(this)">copy</button><br></pre></p>
+                                        <p><pre><span><span id="linux_word">git</span> branch -M <span id="git_value">%<имя ветки для загрузки>%</span></span><button onclick="copyes(this)">copy</button><br></pre></p>
+                                        <p><pre><span><span id="linux_word">git</span> push -u origin <span id="git_value">%<имя ветки для загрузки, указанное ранее>%</span></span><button onclick="copyes(this)">copy</button><br></pre></p>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </td>
                         
@@ -89,7 +114,7 @@
                     <tr>
                         <td id ="end_sait" colspan="2">
                             <hr>
-                                &#169;Coryright 2024 | Felix Petrov
+                                &#169;Coryright 2024-2025 | Felix Petrov
                             <hr>
                         </td>
                     </tr>

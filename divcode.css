@@ -78,13 +78,21 @@
     float: right;
 }
 
-#code_window_git{
+#code_window_git,
+#code_window_linux{
     width: 90%;
 }
 
-#code_window_git > div{
+#code_window_git > div,
+#code_window_linux > div{
     display: block;
 }
 
+#code_window_git button,
+#code_window_linux button  {
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: "ER Univers 1251";
+}
 
 
