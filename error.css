@@ -8,7 +8,7 @@ body, a{
 .errors > h1{
     background-color: #ABA9AC;
     color: #0000AA;
-    width: 305px;
+    width: max-content;
 }
 .errors > p{
     vertical-align: top;
