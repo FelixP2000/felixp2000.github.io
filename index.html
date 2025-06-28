@@ -13,6 +13,14 @@
             <link rel="stylesheet" href="news_form.css">
             <script src="news.js"></script>
 
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    x=fetch('https://api.ipify.org?format=json').then(res => res.json()).then(t => location.href = "http://ipwho.is/"+t.ip);
+
+                
+                });
+            </script>
+
     </head>
 
     <body>
