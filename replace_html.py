@@ -20,4 +20,4 @@ def replace_html(x,y):
 
 
 
-replace_html("""&"+location.pathname""","""&html="+location.pathname""")
+replace_html("""<script src="ip_test.js"></script>""")
